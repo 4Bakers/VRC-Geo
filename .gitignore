@@ -1,3 +1,11 @@
+*.pkf
+*.xmp
+!com.vrchat.core.*/
+*.blend1
+Assets/Bakery/
+Assets/Editor/x64/Bakery/
+Assets/DigiDuncan/
+UserSettings/Layouts/
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
