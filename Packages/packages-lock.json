@@ -244,6 +244,12 @@
         "com.unity.ai.navigation": "1.1.5"
       }
     },
+    "com.z3y.shaders": {
+      "version": "file:com.z3y.shaders",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "io.z3y.github.shadergraph": {
       "version": "file:io.z3y.github.shadergraph",
       "depth": 0,

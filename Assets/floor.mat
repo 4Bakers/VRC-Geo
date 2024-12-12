@@ -21,29 +21,34 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: floor
-  m_Shader: {fileID: -6465566751694194690, guid: 2bbb24d6d9a79f044b919cd0ad0189f1,
+  m_Shader: {fileID: -6465566751694194690, guid: 7b84f37e85a891b43aeda087d2456532,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _MASKMAP
+  - _NORMALMAP
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap:
-    RenderType: Opaque
+  stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - BlueNoise:
+        m_Texture: {fileID: 2800000, guid: f1823388165341d4aa34e1e2cabf8e46, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 47453a04ad407ba43a8f7df11e52c731, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DFG:
-        m_Texture: {fileID: 2800000, guid: 83d5abfd23f37a645bb0bc0e39aae43a, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3ce3b734ded22b244bb4e74ad36cd7a3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -66,6 +71,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MaskMap:
+        m_Texture: {fileID: 2800000, guid: 60283c4df302a6e40b8a2f9371c9f6ce, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -84,36 +93,66 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - FoldoutMainEnd_AdditionalSettings: 0
+    - FoldoutMainEnd_Properties: 0
+    - FoldoutMainEnd_RenderingOptions: 0
+    - FoldoutMainStart_AdditionalSettings: 1
+    - FoldoutMainStart_PostProcess: 0
+    - FoldoutMainStart_Properties: 1
+    - FoldoutMainStart_RenderingOptions: 1
+    - _Aces: 0
     - _AlphaClip: 0
+    - _AlphaToMask: 0
+    - _BAKERY_MONOSH: 0
+    - _BICUBIC_LIGHTMAP: 0
+    - _BakeryAlphaDither: 0
     - _Blend: 0
     - _BumpScale: 1
     - _Bump_Strength: 0.001
+    - _ColorGradingTone: 0
+    - _Contrast: 1
+    - _Cull: 2
     - _CullMode: 2
     - _Cutoff: 0.5
+    - _CutoutSharpness: 0.0001
+    - _Decalery: 0
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _GEOMETRICSPECULAR_AA: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Metallic: 1
+    - _KhronosNeutral: 0
+    - _LIGHTMAPPED_SPECULAR: 0
+    - _LightmapExposure: 1
+    - _Metallic: 0.5
     - _Mode: 0
+    - _Neutral: 0
     - _OcclusionStrength: 1
+    - _OffsetFactor: 0
+    - _OffsetUnits: 0
     - _Parallax: 0.02
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _Roughness: 0.4
+    - _Saturation: 1
     - _Scale: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
+    - _SpecularOcclusion: 1
     - _SrcBlend: 1
     - _Surface: 0
+    - _TriplanarBlend: 5
+    - _TriplanarScale: 0.25
     - _UVSec: 0
     - _ZTest: 4
     - _ZWrite: 1
     - _ZWriteControl: 0
+    - __LitShaderVariant: 0
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Color_A: {r: 0.98, g: 0.98, b: 0.98, a: 1}
-    - _Color_B: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.801, g: 0.801, b: 0.801, a: 1}
+    - _Color_A: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _Color_B: {r: 0.55, g: 0.55, b: 0.55, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Smoothness: {r: 0.8, g: 0.9, b: 0, a: 0}
   m_BuildTextureStacks: []

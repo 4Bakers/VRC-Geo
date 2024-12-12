@@ -46,7 +46,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["room 3","room 2","room 1"],"padding":[4,4,1],"unwrapper":[0,0,0]}'
+    - '#BAKERY{"meshName":["room 2","room 1"],"padding":[1,1],"unwrapper":[0,0]}'
     clipAnimations: []
     isReadable: 0
   meshes:
@@ -59,7 +59,7 @@ ModelImporter:
     importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
+    importCameras: 0
     importLights: 1
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
