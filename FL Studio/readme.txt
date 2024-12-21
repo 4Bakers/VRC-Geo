@@ -6,3 +6,5 @@ I'm figuring this out while I'm typing it, so please forgive my incomplete thoug
 I was thinking of something ethereal and haunting, but not scary? if that makes any sense.
 I'm NOT a music person, so I just googled "C chords cheat sheet" and put down what I saw because I remember hearing that C Maj is generally is easy and might be helpful to achieve my idea, but in its current state the music is VERY TEMPORARY and just to get ideas down.
 (this is the FIRST TIME I've ever done this lmao)
+
+NOTE: not all of these have to have melodies! just a few chords of backing strings might be interesting for smaller ones
