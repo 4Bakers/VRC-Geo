@@ -1,0 +1,7 @@
+one time player trigger (gets triggered once) for music events
+
+group sync? thinking of going simple.
+what if for simple events like one time music events it goes on proximity. say for example with the one time trigger if one person enters the one time trigger it passes that over the network and makes it as if everyone within a few meters of them also entered the trigger on that frame (thus counting as their one use of the trigger so it doesn't go off multiple times)
+the idea of doing it based on proximity instead of globally is if you have >1 parties of explorers in the same instance, you only want the people relevant to an event to hear the event music, but if they aren't, also not miss out on it when their party finds it.
+
+basic menu to disable post processing, hearing footstep audio (if footsteps are added) and local player making footsteps (a manual ovveride for if their avatar is doing a hovering animation). do not know what visual style to give such a menu.

@@ -1,0 +1,9 @@
+I obviously can't include most of the stuff you need to open this FLP, for both file size and copyright reasons.
+I may miss some things, but I'm trying! (I'm bad at FL so I don't know how to view dependancies, so I'm doing this by hand)
+I will try to keep this list short ;-;
+
+FL Studio 21.0.3
+FLEX Essential Winds
+FLEX Essential Strings
+Kilohearts Essentials
+
