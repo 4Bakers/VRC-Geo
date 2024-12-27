@@ -1,11 +1,5 @@
 {
   "dependencies": {
-    "com.vrchat.base": {
-      "version": "3.7.5"
-    },
-    "com.vrchat.worlds": {
-      "version": "3.7.5"
-    },
     "com.vrchat.core.vpm-resolver": {
       "version": "0.1.29"
     },
@@ -13,20 +7,10 @@
       "version": "1.0.8"
     },
     "com.z3y.shaders": {
-      "version": "3.3.10"
+      "version": "3.3.11"
     }
   },
   "locked": {
-    "com.vrchat.base": {
-      "version": "3.7.5",
-      "dependencies": {}
-    },
-    "com.vrchat.worlds": {
-      "version": "3.7.5",
-      "dependencies": {
-        "com.vrchat.base": "3.7.5"
-      }
-    },
     "com.vrchat.core.vpm-resolver": {
       "version": "0.1.29",
       "dependencies": {}
@@ -36,7 +20,7 @@
       "dependencies": {}
     },
     "com.z3y.shaders": {
-      "version": "3.3.10",
+      "version": "3.3.11",
       "dependencies": {}
     }
   }
